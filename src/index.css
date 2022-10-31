@@ -1,0 +1,53 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+
+  /* background-color: red; */
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+table {
+  width: 100%;
+}
+
+.tableContainer {
+  border: 1px solid black;
+}
+
+.formConatiner {
+  width: 40%;
+}
+
+.scores {
+  margin: auto;
+  width: 50%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+form button {
+  display: flex;
+  align-self: flex-end;
+  width: 40%;
+  align-content: center;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  margin: auto;
+  width: 80%;
+}
