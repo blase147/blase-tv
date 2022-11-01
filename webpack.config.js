@@ -41,6 +41,10 @@ module.exports = {
         test: /\.xml$/i,
         use: ['xml-loader'],
       },
+      {
+        test: /\.(js)$/,
+        use: 'babel-loader',
+      }
     ],
   },
 };
