@@ -1,6 +1,9 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # BLASE-TV
+
+Description..........!!!
+
 Here is a [link] (https://blase147.github.io/blase-tv/dist/index.html) to the live page.
 
 ## Major languages 
@@ -16,31 +19,37 @@ Here is a [link] (https://blase147.github.io/blase-tv/dist/index.html) to the li
 
 ## Getting Started
 
-To get a local copy up and running follow these simple example steps.
+> In order to use the project files, Kindly follow these steps:
 
-$ git clone https://github.com/blase147/blase-tv.git
+### Steps
 
-$ git checkout -b todolist-project
+- To clone the project select the desired directory in cmd and run: `git clone https://github.com/blase147/blase-tv.git`
+- Install npm dependencies: `npm install`
+- To check the live preview: `npm run start`
+- For StyLint test, run: `npx stylelint "**/*.{css,scss}"`
+- For WebHint test, run: `npx hint .`
+- For EsLint test, run: `npx eslint .`
 
-$ git pull origin todolist-project
+### Prerequisites
+
+- Have basic level knowledge about HTML/CSS/JS/ES6
+- Have basic level knowledge about linters/Webpack
+- Have basic level knowledge about the working of website
 
 
 ## Authors
 
+👤 **Umer Zia**
+
+[GitHub](https://github.com/UmerZia) | [Twitter](https://twitter.com/ChukwumaMosanya) | [LinkedIn](https://linkedin.com/in/umer-zia-30906a183/)
+
 👤 **Chukwuma Paul Mosanya**
-- GitHub: [@blase147](https://github.com/blase147)
-- Twitter: [@ChukwumaMosanya](https://twitter.com/ChukwumaMosanya)
-- LinkedIn: [@ChukwumaMosanya](https://www.linkedin.com/in/chukwuma-mosanya-34645388)
+
+[GitHub](https://github.com/blase147) | [Twitter](https://twitter.com/DevUmerZia) | [LinkedIn](https://www.linkedin.com/in/chukwuma-mosanya-34645388)
 
 👤 **Ayodeji Abidemi**
-- GitHub: [@blase147](https://github.com/blase147)
-- Twitter: [@ChukwumaMosanya](https://twitter.com/ChukwumaMosanya)
-- LinkedIn: [@ChukwumaMosanya](https://www.linkedin.com/in/chukwuma-mosanya-34645388)
 
-👤 **Umer Zia**
-- GitHub: [@blase147](https://github.com/blase147)
-- Twitter: [@ChukwumaMosanya](https://twitter.com/ChukwumaMosanya)
-- LinkedIn: [@ChukwumaMosanya](https://www.linkedin.com/in/chukwuma-mosanya-34645388)
+[GitHub](https://github.com/UmerZia) | [Twitter](https://twitter.com/DevUmerZia) | [LinkedIn](https://linkedin.com/in/umer-zia-30906a183/)
 
 
 # 🤝 Contributing
@@ -61,4 +70,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](https://github.com/blase147/blase-tv/blob/feature/license) licensed.
