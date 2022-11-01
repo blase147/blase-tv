@@ -1,62 +1,62 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# BLASE-TV
 
-> Description the project.
+Description..........!!!
 
+Here is a [link] (https://blase147.github.io/blase-tv/dist/index.html) to the live page.
 
-## Built With
+## Major languages 
+- HTML 
+- CSS
+- Javascript
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
+## Technologies used 
+- GitHub 
+- Visual Studio Code 
+- GitBash
+- Webpack
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+> In order to use the project files, Kindly follow these steps:
 
+### Steps
 
-To get a local copy up and running follow these simple example steps.
+- To clone the project select the desired directory in cmd and run: `git clone https://github.com/blase147/blase-tv.git`
+- Install npm dependencies: `npm install`
+- To check the live preview: `npm run start`
+- For StyLint test, run: `npx stylelint "**/*.{css,scss}"`
+- For WebHint test, run: `npx hint .`
+- For EsLint test, run: `npx eslint .`
 
 ### Prerequisites
 
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
+- Have basic level knowledge about HTML/CSS/JS/ES6
+- Have basic level knowledge about linters/Webpack
+- Have basic level knowledge about the working of website
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Umer Zia**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+[GitHub](https://github.com/UmerZia) | [Twitter](https://twitter.com/ChukwumaMosanya) | [LinkedIn](https://linkedin.com/in/umer-zia-30906a183/)
 
-👤 **Author2**
+👤 **Chukwuma Paul Mosanya**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+[GitHub](https://github.com/blase147) | [Twitter](https://twitter.com/DevUmerZia) | [LinkedIn](https://www.linkedin.com/in/chukwuma-mosanya-34645388)
 
-## 🤝 Contributing
+👤 **Ayodeji Abidemi**
 
-Contributions, issues, and feature requests are welcome!
+[GitHub](https://github.com/UmerZia) | [Twitter](https://twitter.com/DevUmerZia) | [LinkedIn](https://linkedin.com/in/umer-zia-30906a183/)
 
-Feel free to check the [issues page](../../issues/).
+
+# 🤝 Contributing
+
+- Contributions, issues, and feature requests are welcome!
+
+  Feel free to check the issues page.https://github.com/blase147/blase-tv/issues
 
 ## Show your support
 
@@ -64,12 +64,10 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- [@microverseinc](https://github.com/microverseinc) 
+
+
 
 ## 📝 License
 
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+This project is [MIT](https://github.com/blase147/blase-tv/blob/feature/license) licensed.
