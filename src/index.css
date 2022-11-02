@@ -1,9 +1,92 @@
-html {
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Poppins&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Meera+Inimai&family=Poppins&family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
-body {
-  margin: 0;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
+:root {
+  --white: #fff;
+  --dark-blue: #1e2129;
+  --light-blue: #00acc1;
+  --dull-blue: #13151a;
+}
+
+/* Nav-bar */
+#nav-bar {
+  background-color: var(--dark-blue);
+  position: fixed;
+  z-index: 1000;
+  padding: 10px 30px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+  width: 100%;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  text-decoration: none;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--white);
+  background-color: var(--light-blue);
+  padding: 5px 10px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px #000;
+}
+
+.nav-bar__list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.nav-bar__list--items {
+  font-family: Inter, sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  color: var(--white);
+}
+
+.nav-bar__list--items:hover {
+  cursor: pointer;
+  color: var(--light-blue);
+}
+
+/* Hero */
+.hero {
+  height: 100vh;
+  background-color: var(--dark-blue);
+}
+
+/* Footer */
+#foot-note {
+  background-color: var(--dull-blue);
+  padding: 20px 30px;
+  width: 100%;
+}
+
+.foot-note {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 15px;
+}
+
+.foot-note__dpt {
+  font-family: Inter, sans-serif;
+  font-size: 14px;
+  font-weight: lighter;
+  color: var(--white);
 }
