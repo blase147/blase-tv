@@ -21,7 +21,7 @@
   position: fixed;
   z-index: 1000;
   padding: 10px 30px;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
   width: 100%;
 }
 
@@ -34,7 +34,7 @@
 
 .logo {
   text-decoration: none;
-  font-family: Roboto,sans-serif;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -53,7 +53,7 @@
 }
 
 .nav-bar__list--items {
-  font-family: Inter,sans-serif;
+  font-family: Inter, sans-serif;
   font-size: 18px;
   font-weight: normal;
   color: var(--white);
@@ -86,7 +86,7 @@
 }
 
 .foot-note__dpt {
-  font-family: Inter,sans-serif;
+  font-family: Inter, sans-serif;
   font-size: 14px;
   font-weight: lighter;
   color: var(--white);
