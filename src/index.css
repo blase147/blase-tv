@@ -12,6 +12,7 @@
   --white: #fff;
   --dark-blue: #1e2129;
   --light-blue: #00acc1;
+  --light-blue-hover: #008593;
   --dull-blue: #13151a;
 }
 
@@ -65,9 +66,94 @@
 }
 
 /* Hero */
-.hero {
-  height: 100vh;
+#hero {
   background-color: var(--dark-blue);
+  padding: 100px 50px;
+  height: 100%;
+}
+
+/* Home-page */
+.card__section {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  background-color: var(--dull-blue);
+  max-width: 325px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+  padding: 20px;
+}
+
+.poster {
+  width: 100%;
+  height: auto;
+}
+
+.card__header {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.card__heading {
+  color: var(--white);
+  font-family: Inter, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.heart-check {
+  color: var(--light-blue);
+}
+
+.heart-uncheck {
+  color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: var(--white);
+}
+
+.heart:hover {
+  cursor: pointer;
+}
+
+.card__total-likes {
+  color: var(--light-blue);
+  font-family: Inter, sans-serif;
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+.card__footer {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.card-btn {
+  text-decoration: none;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--white);
+  background-color: var(--light-blue);
+  padding: 5px 10px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px #000;
+}
+
+.card-btn:hover {
+  cursor: pointer;
+  background-color: var(--light-blue-hover);
 }
 
 /* Footer */
