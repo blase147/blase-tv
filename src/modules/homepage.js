@@ -20,5 +20,15 @@ const listOfMovies = async () => {
       }
     });
   });
+
+  const btn = document.querySelector('.card__comment');
+  btn.addEventListener('click', () => {
+    const modal = document.getElementById('myModal');
+    modal.style.display = 'block';
+    const span = document.querySelector('.close-comment-popup');
+    span.onclick = () => {
+      modal.style.display = 'none';
+    };
+  });
 };
 export default listOfMovies;
