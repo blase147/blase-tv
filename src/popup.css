@@ -40,7 +40,7 @@
   margin-top: 0;
   font-size:45px;
   background: none;
-  margin-left: 15px;
+  margin-left: 5px;
   border: none;
 }
 
@@ -69,22 +69,20 @@
 .reservationFormContainer {
   display: flex;
   flex-direction: column;
+  justify-self: center;
   align-self: center;
-  margin-bottom: 100px;
-  margin-top: 20px;
+  margin:auto;
   width: 60%;
 }
   
 .reservationFormContainer  h2 {
    text-align: center;
    margin-bottom: 10px;
-  
 }
 
  .reservationForm {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     gap: 15px;
     width: 100%;
   }
