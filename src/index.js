@@ -1,4 +1,5 @@
 import './index.css';
+import './popup.css';
 import listOfMovies from './modules/homepage.js';
 import api from './modules/fetchWrapper.js';
 
