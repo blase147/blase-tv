@@ -21,8 +21,9 @@ const getReservations = async (id) => {
           return;
         }
         addReservation.innerHTML = `
-          <span>${reservation.start_date}</span> -
-          <span>${reservation.end_date}</span> by ${reservation.username}
+          Start Date:<span>${reservation.start_date}</span> -
+          End Date:<span>${reservation.end_date}</span> 
+          by <span>${reservation.username}</span>
         `;
         reservationList.appendChild(addReservation);
       }).join('');
