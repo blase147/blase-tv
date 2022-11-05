@@ -32,7 +32,6 @@
   --dull-blue: #13151a;
 }
 
-
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: var(--light-blue-hover);
