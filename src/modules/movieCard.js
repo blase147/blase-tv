@@ -25,7 +25,7 @@ const getMovieCard = (poster, title) => `<div class="card">
                     <div class="info-items">
                       <p class="info-item">fuel :titanuim</p>
                       <p class="info-item">length :100,000</p>
-                      <p class="info-item">weight :400</p>
+                      <p class="info-item">weight :400</p> 
                       <p class="info-item">power :100,000,000</p>
                     </div>
                   </div>
