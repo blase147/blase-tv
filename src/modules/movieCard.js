@@ -51,7 +51,9 @@ const getMovieCard = (poster, title) => `<div class="card">
                 </div>
             </div>
 
+
             <div id="reservationPopupContainer">
+            <div id="reservationPopupModal" class="reservationPopupContent">
             <div class="movieImageContainer">
               <img src="" alt="Space Reservation">
               <button type="button" class="closeBtn"><i class="fa-solid fa-circle-xmark"></i></button>
@@ -82,6 +84,7 @@ const getMovieCard = (poster, title) => `<div class="card">
                 <input id="reservationBtn" type="submit" value="Reserve">
               </form>
             </div>
+          </div>
           </div>
             `;
 
