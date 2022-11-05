@@ -22,7 +22,6 @@
 .movieImageContainer img {
   background-color: rgb(81, 143, 225);
   margin: auto;
-  margin-block-end: 50px;
   height: 350px;
   width: 65%;
 
@@ -32,8 +31,6 @@
   margin-top: 0;
   font-size:45px;
   background: none;
-  margin-top: 0;
-  padding-top: 0;
   margin-left: 15px;
   border: none;
 }
@@ -41,7 +38,6 @@
 .movieTitle {
   text-align: center;
   margin: 15px;
-
 }
 
 .reservationDescription {

@@ -51,7 +51,7 @@ const getMovieCard = (poster, title) => `<div class="card">
                 </div>
             </div>
 
-            <div class="reservationPopupContainer hidden">
+            <div id="reservationPopupContainer">
             <div class="movieImageContainer">
               <img src="" alt="Space Reservation">
               <button type="button" class="closeBtn"><i class="fa-solid fa-circle-xmark"></i></button>

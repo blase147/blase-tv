@@ -35,10 +35,10 @@ const listOfMovies = async () => {
   })
 
   const reservationBtn = document.querySelectorAll('.card__reservation');
-  reservationBtn.forEach((eachBtn) => {
-    eachBtn.addEventListener('click', () => {
-      const popup = document.querySelector('.reservationPopupContainer');
-      modal.style.display = 'block';
+  reservationBtn.forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const popup = document.getElementById('reservationPopupContainer');
+      popup.style.display = 'block';
       const closeBtn = document.querySelector('.closeBtn');
       closeBtn.onclick = () => {
         popup.style.display = 'none';
