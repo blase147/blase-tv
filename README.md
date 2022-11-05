@@ -8,6 +8,9 @@ Blase TV is the world's most popular and authoritative source for movie, TV and 
 
 Here is a [link] (https://blase147.github.io/blase-tv/dist/index.html) to the live page.
 
+# Project Presentation
+[Link](https://drive.google.com/file/d/1WV3Tpaqe5hd5-PlzI4sOG1bVk6YtHAzU/view?usp=share_link) of the video.
+
 ## Major languages 
 - HTML 
 - CSS
