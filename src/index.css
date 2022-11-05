@@ -177,7 +177,6 @@
   color: var(--white);
 }
 
-
 .modal {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
@@ -225,7 +224,7 @@
 }
 
 .info {
-  margin-inline-start:16%;
+  margin-inline-start: 16%;
   background-color: aqua;
   width: 65%;
 }
@@ -259,9 +258,9 @@
   padding-inline-start: 17%;
 }
 
-.comment-header{
-  margin-inline-start: -89;
-} 
+.comment-header {
+  margin-inline-start: -89px;
+}
 
 .comment-header,
 .add-comment {
@@ -307,4 +306,3 @@
   height: 50px;
   width: 50%;
 }
-

@@ -24,7 +24,6 @@ const listOfMovies = async () => {
     });
   });
 
-
   const btn = document.querySelectorAll('.card__comment');
   btn.forEach((eachBtn) => {
     eachBtn.addEventListener('click', () => {
@@ -35,7 +34,7 @@ const listOfMovies = async () => {
         modal.style.display = 'none';
       };
     });
-  })
+  });
 
   const reservationBtn = document.querySelectorAll('.card__reservation');
   reservationBtn.forEach((btn) => {
@@ -47,6 +46,6 @@ const listOfMovies = async () => {
         popup.style.display = 'none';
       };
     });
-  })
+  });
 };
 export default listOfMovies;

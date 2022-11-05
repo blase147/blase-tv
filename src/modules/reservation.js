@@ -24,7 +24,7 @@ const getReservations = async (id) => {
           <span>${reservation.start_date}</span> -
           <span>${reservation.end_date}</span> by ${reservation.username}
         `;
-        reservations.appendChild(addReservation);
+        reservationList.appendChild(addReservation);
       }).join('');
     });
 };
