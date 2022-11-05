@@ -177,7 +177,6 @@
   color: var(--white);
 }
 
-
 .modal {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
@@ -231,7 +230,7 @@
 }
 
 .info {
-  margin-inline-start:16%;
+  margin-inline-start: 16%;
   width: 65%;
 }
 
@@ -259,9 +258,9 @@
   padding-inline-start: 17%;
 }
 
-.comment-header{
+.comment-header {
   margin-inline-start: -250px;
-} 
+}
 
 .comment-header,
 .add-comment {
