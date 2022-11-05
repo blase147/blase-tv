@@ -52,7 +52,7 @@ Here is a [link] (https://blase147.github.io/blase-tv/dist/index.html) to the li
 
 👤 **Ayodeji Abidemi**
 
-[GitHub](https://github.com/UmerZia) | [Twitter](https://twitter.com/DevUmerZia) | [LinkedIn](https://linkedin.com/in/umer-zia-30906a183/)
+[GitHub](https://github.com/demix007) | [Twitter](https://twitter.com/dat_dope_demix) | [LinkedIn](https://linkedin.com/in/ayodeji-abidemi-b76935218)
 
 
 # 🤝 Contributing
