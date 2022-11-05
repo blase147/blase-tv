@@ -1,4 +1,4 @@
-const getCommentBox = (poster, title, id) => `
+const getReserveBox = (poster, title, id) => `
 <div id="comment-box" class="none">
     <div class="comment-box">
         <i class="fa fa-times comment__cross" onclick="closeComment()"></i>
@@ -7,18 +7,19 @@ const getCommentBox = (poster, title, id) => `
             <p class="comment__movie-tile">${title}</p>
         </div>
         <div class="recent-comment">
-            <div class="recent-comment__heading">Recent Comments - <span class="total-comments"></span></div>
+            <div class="recent-comment__heading">Recent reservation - <span class="total-reservations"></span></div>
             <div class="recent-comment__history"></div>
            </div>
         </div>
         <div class="add-comment">
-            <div class="add-comment__heading">Add a comment</div>
+            <div class="add-comment__heading">Add a reservation</div>
             <div class="add-comment__box">
                 <input id="name" type="text" placeholder="Full Name" required>
-                <textarea id="comment-holder" placeholder="Write a new comment..." required></textarea>
-                <button type="submit" class="btn-add-comment" onclick="addNewComment(${id})">Comment</button>
+                <input id="start-date" type="date" placeholder="Start Date" required>
+                <input id="end-date" type="date" placeholder="End Date" required>
+                <button type="submit" class="btn-add-comment" onclick="addNewReservation(${id})">Reserve</button>
             </div>
         </div>
     </div>
 </div>`;
-export default getCommentBox;
+export default getReserveBox;
