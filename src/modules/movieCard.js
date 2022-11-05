@@ -11,14 +11,13 @@ const getMovieCard = (poster, title) => `<div class="card">
                 </div>
             </div>
             
-            <!-- The Modal -->
+            <!-- Modal Popup-->
             <div id="myModal" class="modal">
-                <!-- Modal content -->
                 <div class="modal-content">
                   <span class="close-comment-popup">&times;</span>
                 
                   <div class="comment-modal-image">
-        
+                    <img src="https://res.cloudinary.com/ybmedia/image/upload/c_crop,h_477,w_850,x_0,y_86/c_fill,f_auto,h_900,q_auto,w_1600/v1/m/1/1/11f0b2fa7f2932b9e9e762f22ff45398eee3ea67/20-best-films-pilots.jpg" id="popup-img">
                   </div>
         
                   <div class="info">

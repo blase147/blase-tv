@@ -217,16 +217,21 @@
 }
 
 .comment-modal-image {
-  background-color: rgb(81, 143, 225);
+  background-color: blue;
   margin: auto;
-  margin-block-end: 50px;
-  height: 350px;
-  width: 65%;
+  height: 300px;
+  width: 60%;
+  margin-bottom: 50px;
+  border-radius: 6px;
+}
+
+#popup-img {
+  width: 100%;
+  height: 110%;
 }
 
 .info {
   margin-inline-start:16%;
-  background-color: aqua;
   width: 65%;
 }
 
@@ -238,13 +243,8 @@
 
 .info-items {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  width: 70%;
-  min-width: 450px;
-  border-radius: 10px;
-  font-weight: 500;
-  padding-inline-start: 20%;
+  grid-template-columns: auto auto;
+  margin-bottom: 50px;
 }
 
 .info-item {
@@ -260,7 +260,7 @@
 }
 
 .comment-header{
-  margin-inline-start: -89;
+  margin-inline-start: -250px;
 } 
 
 .comment-header,
