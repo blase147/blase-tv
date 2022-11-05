@@ -6,14 +6,14 @@ function reservationCounter(data, link) {
 }
 
 const getReservations = async (id) => {
-  const showReservation = document.querySelector('.reservationTitle');
+  const showReservation = document.querySelector('.reservations');
   showReservation.innerHTML = 'Reservations (0)';
   await fetch(`${url}?item_id=${id}`)
     .then((response) => response.json())
     .then((data) => {
       reservationCounter(data, showReservation);
-      const reservations = document.querySelector('.reservations');
-      reservations.innerHTML = '';
+      const reservationList = document.querySelector('.reservationList');
+      reservationList.innerHTML = '';
       data.map((reservation) => {
         const addReservation = document.createElement('li');
         addReservation.classList.add('reservation-elements');

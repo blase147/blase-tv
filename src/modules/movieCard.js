@@ -70,8 +70,8 @@ const getMovieCard = (poster, title) => `<div class="card">
               </div>
             </div>
             <div class="reservationListContainer">
-              <h2>Reservation (2)</h2>
-              <p>03/11/2021-03/12/2021 by Alex</p>
+              <h2 class="reservations">Reservation (2)</h2>
+              <p class="reservationList">03/11/2021-03/12/2021 by Alex</p>
               <p>03/14/2021-03/16/2021 by Mia</p>
             </div>
         
